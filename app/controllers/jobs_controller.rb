@@ -1,6 +1,6 @@
 class JobsController < ApplicationController
     def index
-        @corporations = [
+        @job_posts = [
             { company: "Stark Enterprises", position: "Ruby Developer", location: "St. Louis, MO" },
             { company: "WayneEnterprises", position: "Ruby on Rails Engineer", location: "Kansas City, MO" },
             { company: "OsCorp", position: "Full Stack Ruby Developer", location: "Springfield, MO" }, 

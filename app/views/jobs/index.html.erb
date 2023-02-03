@@ -1,1 +1,7 @@
-<%= @corporations %>
+<h2>Job Listings</h2>
+
+<% @job_posts.each do |job| %>
+<p><b><%= job[:company] %></p></b>
+<p><%= job[:position] %></p>
+<p><i><%= job[:location] %></i></p>
+<% end %>
